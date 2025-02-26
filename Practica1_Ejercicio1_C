@@ -1,0 +1,13 @@
+program Practica1_Ejercicio1_C;
+
+var
+  num1:integer;
+
+Begin
+  write('Ingrese un número entero:');
+  read(num1);
+  if (num1 MOD 2) =0 then
+	write('El número ingresado es par')
+  else
+	write('El número ingresado es impar');
+End.
