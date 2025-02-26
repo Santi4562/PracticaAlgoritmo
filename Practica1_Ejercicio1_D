@@ -1,0 +1,15 @@
+{Leer un número e imprimir si es o no múltiplo de 5 (termina en 0 o 5).}
+
+program Practica1_Ejercicio1_D;
+
+var
+	num1:integer;
+
+Begin
+	write('Ingrese un número entero:');
+	read(num1);
+	if (num1 MOD 5) = 0 then
+		write('El número ingresado es múltiplo de 5')
+	else
+		write('El núemero ingresado no es múltiplo de 5');
+End.
