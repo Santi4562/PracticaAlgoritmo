@@ -1,0 +1,15 @@
+program Practica1_Ejercicio1_A;
+
+
+var
+	num1, num2:integer;
+
+Begin
+	writeln('Ingrese un número entero:');
+	readln(num1);
+	writeln('Ingese otro número entero:');
+	readln(num2);
+	num1:=num1+num2;
+	num1:= num1 DIV 2;
+	writeln('El promedio de los dos números ingresados es:', num1);
+End.
