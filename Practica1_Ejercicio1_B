@@ -1,0 +1,16 @@
+program Practica1_Ejercicio1_B;
+
+var
+	num1,num2,aux:integer;
+
+Begin
+	write('Ingrese un número entero:');
+	read(num1);
+	write('Ingrese otro número entero:');
+	read(num2);
+	if num1 > num2 then
+		aux := num1
+	else
+		aux := num2;
+	write ('El mayor número ingresado es:', aux);
+End.
